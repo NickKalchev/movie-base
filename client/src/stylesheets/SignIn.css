@@ -1,0 +1,135 @@
+.signIn {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: max-content;
+}
+
+.signIn > a > img {
+  object-fit: contain;
+  height: 60px;
+  margin-top: 20px;
+  margin-right: 350px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.signIn__form {
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+  padding: 34px 62px 32px;
+  width: 450px;
+  border: 4px solid #b38807;
+  border-radius: 8px;
+  margin: 0 auto;
+  background: whitesmoke;
+}
+
+.signIn__form > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signIn__form > h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 0 0 4px 0;
+}
+
+.signIn__form > p {
+  font-size: 1.1rem;
+  line-height: 1.42857;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 20px;
+}
+
+.signIn__form > form > p {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.42857;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
+
+.signIn__form > form > input {
+  font-size: 1.2rem;
+  line-height: 1.1;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+  height: 32px;
+  padding: 12px 8px;
+  margin-bottom: 15px;
+  border-radius: 5px !important;
+}
+
+.signIn__form > form > button {
+  background-color: #0073b1;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  font-family: inherit;
+  height: 65px;
+  line-height: 40px;
+  overflow: hidden;
+  outline-width: 2px;
+  padding: 0 24px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 167ms;
+  transition-property: background-color, box-shadow, color;
+  transition-property: background-color, box-shadow, color, -webkit-box-shadow;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  vertical-align: middle;
+  z-index: 0;
+  background: #0a66c2 !important;
+  border-radius: 28px !important;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.signIn__form > form > button:hover {
+  background-color: #0a5096 !important;
+}
+
+.signIn__form > p > a {
+  text-decoration: none;
+  color: #0073b1;
+  cursor: pointer;
+}
+
+.signIn__register {
+  color: #0073b1;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .signIn {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .signIn > a > img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .signIn__form {
+    width: 80%;
+    margin: 10px 20px;
+    padding: 20px 30px;
+  }
+}
