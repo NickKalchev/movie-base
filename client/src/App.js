@@ -24,8 +24,6 @@ function App() {
           login({
             email: userAuth.email,
             uid: userAuth.uid,
-            displayName: userAuth.displayName,
-            photoUrl: userAuth.photoURL,
           })
         );
       } else {

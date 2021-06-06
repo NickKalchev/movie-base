@@ -22,8 +22,6 @@ function SignIn() {
           login({
             email: userAuth.user.email,
             uid: userAuth.user.uid,
-            displayName: userAuth.user.displayName,
-            photoUrl: userAuth.user.profilePic,
           })
         );
       })
